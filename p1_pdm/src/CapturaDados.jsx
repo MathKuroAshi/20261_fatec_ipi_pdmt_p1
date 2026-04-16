@@ -1,0 +1,52 @@
+import React from 'react'
+
+const CapturaDados = () => {
+  return (
+    <div className='container'>
+      <div className='row mt-4'>
+        <div className='col-sm-6 col-md-6 col-lg-6 p-2'>
+          <label className ='text-muted' htmlFor="valorInicial">Valor Inicial (R$)</label>
+          <input className="w-100 rounded p-2"
+            id="valorInicial"
+            type="text"
+            placeholder="R$ 0,00" />
+        </div>
+
+        <div className='col-sm-6 col-md-6 col-lg-6 p-2'>
+          <label className='text-muted' htmlFor="aporteMensal">Aporte Mensal (R$)</label>
+          <input className="w-100 rounded p-2"
+            id="aporteMensal"
+            type="text"
+            placeholder="R$ 0,00" />
+        </div>
+
+        <div className='col-sm-6 col-md-6 col-lg-6 p-2'>
+          <label className ='text-muted' htmlFor="taxaJuros">Taxa de Juros (% ao mês)</label>
+          <input className="w-100 rounded p-2"
+            id="taxaJuros"
+            type="text"
+            placeholder="0,00" />
+        </div>
+
+        <div className='col-sm-6 col-md-6 col-lg-6 p-2'>
+          <label className ='text-muted' htmlFor="numMeses">Período (meses)</label>
+          <input className="w-100 rounded p-2"
+            id="numMeses"
+            type="text"
+            placeholder="0" />
+        </div>
+      </div>
+      <div className="row mt-3">
+          <div className='col-sm-12 col-md-9 col-lg-3 p-2'>
+            <button className='btn btn-primary w-100'>Calcular</button>
+          </div>
+
+          <div className='col-sm-12 col-md-3 col-lg-3 p-2'>
+            <button className='btn btn-secondary w-100'>Limpar</button>
+          </div>
+      </div>
+    </div>
+  )
+}
+
+export default CapturaDados
