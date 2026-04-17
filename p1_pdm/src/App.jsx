@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import CapturaDados from './CapturaDados'
 import ExibeDados from './ExibeDados'
 import Historico from './Historico'
@@ -66,7 +66,7 @@ const App = () => {
     setRentabilidade(0)
     setNumAportes(0)
   }
-  
+
   return (
     <div className="container p-4">
       <div className="row">
