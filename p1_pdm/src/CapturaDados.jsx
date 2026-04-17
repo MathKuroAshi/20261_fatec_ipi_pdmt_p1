@@ -3,7 +3,7 @@ import { useState } from 'react'
 const CapturaDados = (props) => {
   return (
     <div className='container'>
-      <div className='row mt-4'>
+      <div className='row'>
         <div className='col-sm-6 col-md-6 col-lg-6 p-2'>
           <label className='text-muted' htmlFor="valorInicial">Valor Inicial (R$)</label>
           <input className="w-100 rounded p-2"

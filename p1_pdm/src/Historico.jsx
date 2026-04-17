@@ -8,8 +8,8 @@ const Historico = (props) => {
         <div className="col-3">
           <h6 className='text-muted text-end'>{`${props.contador} simulações`}</h6>
         </div>
-        <div className="card mt-2 bg-light">
-          <div className="card-header bg-light mt-2">
+        <div style={{backgroundColor: '#F5F0EB'}} className="card mt-2">
+          <div style={{backgroundColor: '#F5F0EB'}} className="card-header mt-2">
             <div className="row ">
               <div className="col-9">
                 <h5 className='text-muted'>Data</h5>

@@ -1,13 +1,13 @@
 const ExibeDados = (props) => {
 
   return (
-    <div className="card mt-3 bg-light">
-      <div className="card-header bg-light text-muted">
+    <div style={{backgroundColor: '#F5F0EB'}} className="card mt-3">
+      <div style={{backgroundColor: '#F5F0EB'}} className="card-header text-muted">
         <p>Valor final acumulado</p>
         <h1 className="text-success">R$ {props.valorFinalAcumulado}</h1>
       </div>
 
-      <div className="card-body bg-light">
+      <div style={{backgroundColor: '#F5F0EB'}} className="card-body">
         <div className="row mt-3">
           <div className="col-md-6 col-sm-12">
             <p>Total investido</p>
